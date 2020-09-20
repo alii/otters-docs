@@ -1,0 +1,41 @@
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://use.typekit.net/hxz2ibt.css");
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 2%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 350%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Acumin Pro Wide", "Inter", sans-serif;
+}
+
+h2,
+h3 {
+  color: #4a4a4a;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
