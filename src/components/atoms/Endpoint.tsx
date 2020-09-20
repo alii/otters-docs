@@ -67,7 +67,7 @@ const EndpointMethod = (props: {
           return (
             <p key={key}>
               <b>{ucFirst(key)}</b>:{" "}
-              <pre>{JSON.stringify(description, null, 4)}</pre>
+              <pre>{JSON.stringify(description, null, 2)}</pre>
             </p>
           );
         })}
