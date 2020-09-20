@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ff40f19-dc9b-4f07-896b-a51588df34e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Docs.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/Hero.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/atoms.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fetcher.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/Endpoint.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Docs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Docs.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,21 +59,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600622253512</updated>
-      <workItem from="1600622254758" duration="4014000" />
+      <workItem from="1600622254758" duration="7345000" />
     </task>
+    <task id="LOCAL-00001" summary="Begin">
+      <created>1600628297762</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600628297762</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Begin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Begin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="578" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600623216663">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600623216663" />
+    <state x="431" y="116" key="CommitChangelistDialog2" timestamp="1600628297604">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="431" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1600628297604" />
     <state x="349" y="161" key="SettingsEditor" timestamp="1600627309273">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600627309273" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1600628298534">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1600628298534" />
   </component>
 </project>

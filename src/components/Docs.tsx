@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import useSWR from "swr";
 import { ApiDocs } from "../types/api";
 import { fetcher } from "../fetcher";
+import { Endpoint } from "./atoms/Endpoint";
 
 export const Docs = () => {
   const { data, error } = useSWR<{ API_DOCS: ApiDocs }>(
@@ -37,12 +38,8 @@ export const Docs = () => {
       </h3>
       <div>
         {mappedEndpoints.map((entry) => {
-          const [endpoint, endpointDescription] = entry;
-          return (
-            <p>
-              {endpoint} – {endpointDescription.description}
-            </p>
-          );
+          const [path, endpoint] = entry;
+          return <Endpoint key={path} path={path} endpoint={endpoint} />;
         })}
       </div>
     </div>

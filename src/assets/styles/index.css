@@ -39,3 +39,46 @@ h3 {
     font-family: "Inter var", sans-serif;
   }
 }
+
+.endpoint {
+  padding: 20px;
+  margin-top: 15px;
+  border: 1px solid #f3f3f3;
+  border-radius: 15px;
+  box-shadow: 0px 2px 20px -27px rgba(0, 0, 0, 0.75);
+  transition: all 0.2s;
+}
+
+/*.endpoint:not(.open) {*/
+/*  cursor: pointer;*/
+/*  user-select: none;*/
+/*}*/
+
+.endpoint:hover {
+  box-shadow: 0px 2px 20px -10px rgba(0, 0, 0, 0.75);
+}
+
+.endpoint > p {
+  margin-top: 15px;
+}
+
+.endpoint h4 {
+  margin-bottom: 5px;
+}
+
+.endpoint blockquote {
+  padding-left: 20px;
+  margin-top: 10px;
+  border-left: 3px solid #dddddd;
+}
+
+.endpoint .verb {
+  color: deeppink;
+}
+
+pre,
+code {
+  padding-top: 5px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+}
