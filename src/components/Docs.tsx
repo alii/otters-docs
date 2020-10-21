@@ -9,6 +9,8 @@ export const Docs = () => {
     "https://otters.app/api/docs",
     fetcher
   );
+  
+  const { data } = body;
 
   if (error || !body) {
     return (
