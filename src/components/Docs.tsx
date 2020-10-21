@@ -5,10 +5,12 @@ import { fetcher } from "../fetcher";
 import { Endpoint } from "./atoms/Endpoint";
 
 export const Docs = () => {
-  const { data, error } = useSWR<{ API_DOCS: ApiDocs }>(
+  const { data: body, error } = useSWR<{ data: ApiDocs }>(
     "https://otters.app/api/docs",
     fetcher
   );
+  
+  const { data } = body;
 
   if (!data?.API_DOCS) {
     return (
