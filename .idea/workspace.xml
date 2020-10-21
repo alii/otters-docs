@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ff40f19-dc9b-4f07-896b-a51588df34e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Docs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Docs.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,12 +19,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Alistair Smith &lt;alistairsmith01@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="alistair/otr-29-fix-redirection" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -87,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600622253512</updated>
       <workItem from="1600622254758" duration="8039000" />
-      <workItem from="1603297580476" duration="141000" />
+      <workItem from="1603297580476" duration="385000" />
     </task>
     <task id="LOCAL-00001" summary="Begin">
       <created>1600628297762</created>
@@ -110,35 +115,52 @@
       <option name="project" value="LOCAL" />
       <updated>1600631967772</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix docs :whale::wheel_of_dharma:">
+      <created>1603297929503</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603297929503</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Begin" />
     <MESSAGE value="Basically finished. Nice and easy :rocket::penguin:" />
     <MESSAGE value="Change JSON formatting to two spaces. :sparkles:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change JSON formatting to two spaces. :sparkles:" />
+    <MESSAGE value="Fix docs :whale::wheel_of_dharma:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix docs :whale::wheel_of_dharma:" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="578" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600623216663">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600623216663" />
-    <state x="431" y="116" key="CommitChangelistDialog2" timestamp="1600631967661">
+    <state x="431" y="116" key="CommitChangelistDialog2" timestamp="1603297929390">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="431" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1600631967661" />
+    <state x="431" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1603297929390" />
+    <state x="168" y="91" width="1344" height="840" key="DiffContextDialog" timestamp="1603297994822">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="168" y="91" width="1344" height="840" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603297994822" />
     <state x="349" y="161" key="SettingsEditor" timestamp="1600627309273">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600627309273" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1600631968731">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1603297930681">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1600631968731" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603297930681" />
     <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603297606545">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
