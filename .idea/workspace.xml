@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ff40f19-dc9b-4f07-896b-a51588df34e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/Endpoint.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/Endpoint.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Docs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Docs.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +20,38 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="alistair/otr-29-fix-redirection" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1600632767" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="alistair/otr-29-fix-redirection" />
+                    <option name="lastUsedInstant" value="1600632760" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="1hmhbedo2nHDaFikNTvQz4gzBFD" />
   <component name="ProjectViewState">
@@ -33,6 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -56,7 +86,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600622253512</updated>
-      <workItem from="1600622254758" duration="7434000" />
+      <workItem from="1600622254758" duration="8039000" />
+      <workItem from="1603297580476" duration="141000" />
     </task>
     <task id="LOCAL-00001" summary="Begin">
       <created>1600628297762</created>
@@ -72,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600631879562</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Change JSON formatting to two spaces. :sparkles:">
+      <created>1600631967772</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600631967772</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,24 +119,33 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Begin" />
     <MESSAGE value="Basically finished. Nice and easy :rocket::penguin:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basically finished. Nice and easy :rocket::penguin:" />
+    <MESSAGE value="Change JSON formatting to two spaces. :sparkles:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change JSON formatting to two spaces. :sparkles:" />
   </component>
   <component name="WindowStateProjectService">
     <state x="578" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600623216663">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600623216663" />
-    <state x="431" y="116" key="CommitChangelistDialog2" timestamp="1600631879434">
+    <state x="431" y="116" key="CommitChangelistDialog2" timestamp="1600631967661">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="431" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1600631879434" />
+    <state x="431" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1600631967661" />
     <state x="349" y="161" key="SettingsEditor" timestamp="1600627309273">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600627309273" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1600631881508">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1600631968731">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1600631881508" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1600631968731" />
+    <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603297606545">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603297606545" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1603297667636">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603297667636" />
   </component>
 </project>
