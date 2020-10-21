@@ -1,7 +1,7 @@
 import React from "react";
 import useSWR from "swr";
 import { ApiDocs } from "../types/api";
-import { fetcher } from "../fetcher";
+import { fetcher } from "../core/fetcher";
 import { Endpoint } from "./atoms/Endpoint";
 
 export const Docs = () => {
@@ -10,7 +10,7 @@ export const Docs = () => {
     fetcher
   );
 
-  if (error || !body) {
+  if (error) {
     return (
       <React.Fragment>
         <h1>Could not load docs!</h1>
@@ -19,9 +19,7 @@ export const Docs = () => {
     );
   }
 
-  const { data = false } = body;
-
-  if (!data) {
+  if (!body) {
     return (
       <React.Fragment>
         <br />
@@ -29,6 +27,8 @@ export const Docs = () => {
       </React.Fragment>
     );
   }
+
+  const { data } = body;
 
   const mappedEndpoints = Object.entries(data.endpoints);
 

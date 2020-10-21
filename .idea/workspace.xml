@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ff40f19-dc9b-4f07-896b-a51588df34e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Docs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Docs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/Endpoint.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/Endpoint.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fetcher.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/fetcher.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/serviceWorker.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +89,11 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/core" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -92,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600622253512</updated>
       <workItem from="1600622254758" duration="8039000" />
-      <workItem from="1603297580476" duration="385000" />
+      <workItem from="1603297580476" duration="1151000" />
     </task>
     <task id="LOCAL-00001" summary="Begin">
       <created>1600628297762</created>
@@ -122,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603297929503</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=":bento:">
+      <created>1603298000231</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603298000231</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +154,8 @@
     <MESSAGE value="Basically finished. Nice and easy :rocket::penguin:" />
     <MESSAGE value="Change JSON formatting to two spaces. :sparkles:" />
     <MESSAGE value="Fix docs :whale::wheel_of_dharma:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix docs :whale::wheel_of_dharma:" />
+    <MESSAGE value=":bento:" />
+    <option name="LAST_COMMIT_MESSAGE" value=":bento:" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -145,10 +164,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600623216663" />
-    <state x="431" y="116" key="CommitChangelistDialog2" timestamp="1603297929390">
+    <state x="431" y="116" key="CommitChangelistDialog2" timestamp="1603298000122">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="431" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1603297929390" />
+    <state x="431" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1603298000122" />
     <state x="168" y="91" width="1344" height="840" key="DiffContextDialog" timestamp="1603297994822">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -157,10 +176,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600627309273" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1603297930681">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1603298001032">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603297930681" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603298001032" />
     <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603297606545">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

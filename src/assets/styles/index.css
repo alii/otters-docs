@@ -82,3 +82,7 @@ code {
   font-family: "JetBrains Mono", monospace;
   font-size: 13px;
 }
+
+.verb-container {
+  margin-top: 25px;
+}

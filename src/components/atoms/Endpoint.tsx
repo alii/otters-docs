@@ -58,7 +58,7 @@ const EndpointMethod = (props: {
   });
 
   return (
-    <div>
+    <div className={"verb-container"}>
       <b className={"verb"}>{verb.toUpperCase()}</b>: {method.description}
       <blockquote>
         {keys.map((entry) => {
